@@ -22,5 +22,13 @@ class MakeInstance {
 }
 
 const instace=new MakeInstance('test','password','email')
+/**
+ *  * 매개변수 0번째인 idValue 자리에 'test' 라는 문자열을 담았다.
+ *  * setter에 의해 문자열이 아닌 경우 , console.log()가 실행되고,
+ *  * 문자열인 경우 this.id 값에 value 값이 할당 된다.
+ *  * 언더스코어(_) 는 관용적으로 '은닉화' 된 변수를 의미한다.
+ *  * setter의 내부 객체 key 인 _언더바 형태로 만들어진 key 는
+ *  * 정해진 조건에서만 '대입'이 가능하다. 
+ */
 
 console.table(instace)
