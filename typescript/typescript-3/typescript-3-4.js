@@ -1,5 +1,5 @@
-import { appendAttributes } from './typescript-3-2';
-import { appendChildren } from './typescript-3-3';
+import { appendAttributes } from './typescript-3-2.js';
+import { appendChildren } from './typescript-3-3.js';
 
 export const createComponent = (element, props, children) => {
   let tagParts = [`<${element}>`];
