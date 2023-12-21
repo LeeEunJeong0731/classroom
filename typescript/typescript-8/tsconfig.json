@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // 또는 다른 ECMAScript 버전
+    "lib": ["es2017", "dom"],
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./ts" // 프로젝트의 소스 코드가 있는 디렉토리를 지정
+  ],
+  "exclude": [
+    "node_modules" // 컴파일에서 제외할 디렉토리를 지정
+  ]
+}
