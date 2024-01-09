@@ -20,3 +20,7 @@ useEffect(() => {
   const subscriptionStatus = sessionStorage.getItem('isSubscribed') === 'true';
   setIsSubscribed(subscriptionStatus);
 }, []);
+
+/*
+handLeSubscribe() 메서드는 fetch() 메서드를 사용하여 서버에 구독 요청을 보낸다.
+'.subscribe' 로 작성된 경로는, 임의의 GET 요청을 받아 처리하는 라우터를 의미하고, 다른 REST APi 처럼 주소의 형태, 경로의 형태 등 여러가지가 될 수 있다 * */
